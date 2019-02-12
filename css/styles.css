@@ -106,7 +106,7 @@ body {
 }
 
 .mainvisual-content {
-  background: orange;
+  background: rgb(244, 217, 105);
   position: absolute;
   top: 0;
   bottom: 0;
@@ -201,7 +201,7 @@ body {
 }
 
 .ceo-contact-img {
-  background: orange;
+  background: rgb(244, 217, 105);
   width: 75px;
   height: 75px;
   border-radius: 50%;
@@ -278,7 +278,7 @@ body {
 }
 
 .caution {
-  background: orange;
+  background: rgb(244, 105, 114);
   text-align: center;
   height: 30px;
   line-height: 30px;
