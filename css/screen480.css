@@ -1,0 +1,47 @@
+@charset "UTF-8";
+@media screen and (min-width: 480px) {
+  /*　for tablet　*/
+  .hide-sp {
+    display: flex; }
+
+  .hide-480 {
+    display: none; }
+
+  .header-wrap {
+    min-width: 700px;
+    justify-content: space-between; }
+
+  .h-gnav-list {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.9rem;
+    font-weight: bold;
+    letter-spacing: 0.08rem; }
+
+  .h-gnav-item {
+    margin-right: 22px; }
+
+  .h-nav-ul {
+    position: relative;
+    display: inline-block;
+    text-decoration: none; }
+
+  .h-nav-ul::after {
+    position: absolute;
+    bottom: -6px;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #333;
+    transform: scale(0, 1);
+    transform-origin: left top;
+    transition: transform .3s; }
+
+  .h-nav-ul:hover::after {
+    transform: scale(1, 1); }
+
+  .header-alert {
+    margin-left: 15px; } }
+
+/*# sourceMappingURL=screen480.css.map */

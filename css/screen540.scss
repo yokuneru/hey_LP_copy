@@ -1,0 +1,77 @@
+@media screen and (min-width:540px) {
+  /*　for tablet　*/
+
+  // message
+  .message-wrap {
+    width: 70vw;
+    margin: 0 auto;
+  }
+
+  .message-top {
+    font-size: 5.5rem;
+    line-height: 5.5rem;
+    margin-bottom: 28px;
+  }
+
+  .message {
+    font-size: 2.8vw;
+    margin-bottom: 50px;
+    line-height: 6.5vw;
+    letter-spacing: 0.05rem;
+  }
+
+  .message-sub {
+    font-size: 1.2rem;
+  }
+
+  .message-logo {
+    width: 100px;
+  }
+
+
+  // recruit
+  .recruit-wrap {
+    width: 70vw;
+    margin: 0 auto;
+  }
+
+  .recruit-head-sub {
+    width: 320px;
+  }
+
+  .recruit-head {
+    font-size: 4rem;
+    line-height: 5rem;
+  }
+
+  .messanger-img-wrap {
+    height: 70px;
+  }
+
+  .messanger-induction {
+    width: 280px;
+  }
+
+  .messanger-img {
+    transform: translate(260px, -50%);
+    width: 70px;
+    height: 70px;
+  }
+
+  .messanger-arrow {
+    transform: translate(320px, 0);
+  }
+
+  .contact-btn {
+    height: 74px;
+    font-size: 1.4rem;
+    line-height: 70px;
+    margin-bottom: 60px;
+  }
+
+  .mb-rc {
+    margin-bottom: 10px;
+  }
+
+
+}

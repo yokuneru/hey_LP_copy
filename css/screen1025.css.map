@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": ";AAAA,qCAAqC;EACnC,YAAY;EAEZ,YAAa;IACX,SAAS,EAAE,IAAI;;EAGjB,YAAa;IACX,YAAY,EAAE,IAAI;;EAIpB,YAAa;IACX,KAAK,EAAE,IAAI",
+"sources": ["screen1025.scss"],
+"names": [],
+"file": "screen1025.css"
+}

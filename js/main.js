@@ -1,20 +1,27 @@
 $(function(){
   'use strict';
-  // var mainvisualH = $('.mainvisual-img').height();
-  var mainvisualH = $('.mainvisual-wrapper').height();
+
 
   $(window).on('load scroll' , function() {
-    if ($(this).scrollTop() > mainvisualH) {
-      $('.header-logo-img').css('visibility', 'visible');
+    var message = $('#message').offset();
+
+    if ($(this).scrollTop() > message.top) {
+      $('.header-logo-link').css('display', 'block');
       $('header').stop().animate({
         backgroundColor: '#fff'
       }, 150);
     } else {
-      $('.header-logo-img').css('visibility', 'hidden');
+      $('.header-logo-link').css('display', 'none');
       $('header').stop().animate({
         backgroundColor: 'transparent'
       }, 150);
     }
   });
+
+  $('.menu-btn').on('click' , function() {
+    $('#menu-nav').toggleClass('hide-nav');
+    console.log('open');
+  });
+
 
 });

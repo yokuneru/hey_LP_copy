@@ -1,0 +1,83 @@
+@media screen and (min-width:770px) {
+  /*　for PC　*/
+
+  // hide
+  .hide770 {
+    display: none;
+  }
+
+  // mainvisual
+  .mainvisual-img {
+    height: 56vw;
+    background: #ABCDEF;
+  }
+
+  .mainvisual-img::before,
+  .mainvisual-img::after {
+    height: 2000px;
+  }
+
+  .mainvisual-img::before {
+    transform: rotate(-60.8deg);
+  }
+
+  .mainvisual-img::after {
+    transform: rotate(60.8deg);
+  }
+
+  // .mainvisual-img {
+  //   background: url(../img/mainvisual-tb.png) center center / cover no-repeat;
+  //   padding-top: calc(741 / 1320 * 100%);
+  // }
+
+
+  // message
+  .message-wrap {
+    padding: 80px 16px 100px 16px;
+  }
+
+  .message {
+    font-size: 2vw;
+    margin-bottom: 50px;
+    line-height: 4vw;
+    letter-spacing: 0.05rem;
+  }
+
+
+  // recruit
+  .contact-btn {
+    height: 80px;
+    font-size: 1.8rem;
+    line-height: 75px;
+    margin-bottom: 60px;
+  }
+
+  .mb-rc {
+    margin-bottom: 20px;
+  }
+
+
+  // footer
+  .footer-wrap {
+    padding: 0 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+
+  .f-gnav-list {
+    line-height: 3.5rem;
+  }
+
+  .f-gnav-item {
+    margin-right: 24px;
+  }
+
+  .copyright {
+    text-align: right;
+    width: 250px;
+  }
+
+
+}
